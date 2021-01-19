@@ -1,0 +1,6 @@
+framework module Pods_CleanseApp {
+  umbrella header "Pods-CleanseApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

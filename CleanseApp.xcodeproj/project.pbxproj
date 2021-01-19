@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F78F7FB25B7651B0072E9D3 /* info.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F78F7FA25B7651B0072E9D3 /* info.json */; };
+		1F78F80125B7652B0072E9D3 /* learn.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F78F7FF25B7652A0072E9D3 /* learn.json */; };
+		1F78F80225B7652B0072E9D3 /* eco.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F78F80025B7652B0072E9D3 /* eco.json */; };
+		1F78F80925B766000072E9D3 /* onBoardings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F78F80825B766000072E9D3 /* onBoardings.storyboard */; };
+		1F78F80E25B766210072E9D3 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78F80D25B766210072E9D3 /* OnBoardingViewController.swift */; };
 		1FCF375125B7410E0079DE39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF375025B7410E0079DE39 /* AppDelegate.swift */; };
 		1FCF375325B7410E0079DE39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF375225B7410E0079DE39 /* SceneDelegate.swift */; };
 		1FCF375525B7410E0079DE39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF375425B7410E0079DE39 /* ViewController.swift */; };
@@ -15,6 +20,7 @@
 		1FCF375D25B7410F0079DE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF375B25B7410F0079DE39 /* LaunchScreen.storyboard */; };
 		1FCF376825B7410F0079DE39 /* CleanseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF376725B7410F0079DE39 /* CleanseAppTests.swift */; };
 		1FCF377325B7410F0079DE39 /* CleanseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF377225B7410F0079DE39 /* CleanseAppUITests.swift */; };
+		3976C1B8B1F39285F8F33A31 /* Pods_CleanseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059C5F755424F79E897CA80C /* Pods_CleanseApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		059C5F755424F79E897CA80C /* Pods_CleanseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F78F7FA25B7651B0072E9D3 /* info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = info.json; sourceTree = "<group>"; };
+		1F78F7FF25B7652A0072E9D3 /* learn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = learn.json; sourceTree = "<group>"; };
+		1F78F80025B7652B0072E9D3 /* eco.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eco.json; sourceTree = "<group>"; };
+		1F78F80825B766000072E9D3 /* onBoardings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = onBoardings.storyboard; sourceTree = "<group>"; };
+		1F78F80D25B766210072E9D3 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		1FCF374D25B7410E0079DE39 /* CleanseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCF375025B7410E0079DE39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FCF375225B7410E0079DE39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		1FCF376E25B7410F0079DE39 /* CleanseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCF377225B7410F0079DE39 /* CleanseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanseAppUITests.swift; sourceTree = "<group>"; };
 		1FCF377425B7410F0079DE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A055764EC351C963416FF06 /* Pods-CleanseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanseApp.debug.xcconfig"; path = "Target Support Files/Pods-CleanseApp/Pods-CleanseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D70468506F6C923F897EFF31 /* Pods-CleanseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanseApp.release.xcconfig"; path = "Target Support Files/Pods-CleanseApp/Pods-CleanseApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3976C1B8B1F39285F8F33A31 /* Pods_CleanseApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +91,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113D6E7031FFD6D4F8057597 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A055764EC351C963416FF06 /* Pods-CleanseApp.debug.xcconfig */,
+				D70468506F6C923F897EFF31 /* Pods-CleanseApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1F78F80625B765950072E9D3 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1F78F80825B766000072E9D3 /* onBoardings.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		1F78F80725B765AA0072E9D3 /* onBoardingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F78F80D25B766210072E9D3 /* OnBoardingViewController.swift */,
+			);
+			path = onBoardingControllers;
+			sourceTree = "<group>";
+		};
 		1FCF374425B7410E0079DE39 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				1FCF376625B7410F0079DE39 /* CleanseAppTests */,
 				1FCF377125B7410F0079DE39 /* CleanseAppUITests */,
 				1FCF374E25B7410E0079DE39 /* Products */,
+				113D6E7031FFD6D4F8057597 /* Pods */,
+				FF8FE9B7150D6E7767FE1739 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,11 @@
 		1FCF374F25B7410E0079DE39 /* CleanseApp */ = {
 			isa = PBXGroup;
 			children = (
+				1F78F80725B765AA0072E9D3 /* onBoardingControllers */,
+				1F78F80625B765950072E9D3 /* storyboards */,
+				1F78F80025B7652B0072E9D3 /* eco.json */,
+				1F78F7FF25B7652A0072E9D3 /* learn.json */,
+				1F78F7FA25B7651B0072E9D3 /* info.json */,
 				1FCF375025B7410E0079DE39 /* AppDelegate.swift */,
 				1FCF375225B7410E0079DE39 /* SceneDelegate.swift */,
 				1FCF375425B7410E0079DE39 /* ViewController.swift */,
@@ -128,6 +175,14 @@
 			path = CleanseAppUITests;
 			sourceTree = "<group>";
 		};
+		FF8FE9B7150D6E7767FE1739 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				059C5F755424F79E897CA80C /* Pods_CleanseApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FCF377725B7410F0079DE39 /* Build configuration list for PBXNativeTarget "CleanseApp" */;
 			buildPhases = (
+				C11775796B25BF34D47A3BB3 /* [CP] Check Pods Manifest.lock */,
 				1FCF374925B7410E0079DE39 /* Sources */,
 				1FCF374A25B7410E0079DE39 /* Frameworks */,
 				1FCF374B25B7410E0079DE39 /* Resources */,
+				C2D5A1D8CA82EB7E5A89CBE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FCF375D25B7410F0079DE39 /* LaunchScreen.storyboard in Resources */,
+				1F78F80125B7652B0072E9D3 /* learn.json in Resources */,
+				1F78F7FB25B7651B0072E9D3 /* info.json in Resources */,
 				1FCF375A25B7410F0079DE39 /* Assets.xcassets in Resources */,
 				1FCF375825B7410E0079DE39 /* Main.storyboard in Resources */,
+				1F78F80925B766000072E9D3 /* onBoardings.storyboard in Resources */,
+				1F78F80225B7652B0072E9D3 /* eco.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +314,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C11775796B25BF34D47A3BB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanseApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D5A1D8CA82EB7E5A89CBE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CleanseApp/Pods-CleanseApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CleanseApp/Pods-CleanseApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CleanseApp/Pods-CleanseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FCF374925B7410E0079DE39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +364,7 @@
 				1FCF375525B7410E0079DE39 /* ViewController.swift in Sources */,
 				1FCF375125B7410E0079DE39 /* AppDelegate.swift in Sources */,
 				1FCF375325B7410E0079DE39 /* SceneDelegate.swift in Sources */,
+				1F78F80E25B766210072E9D3 /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +537,7 @@
 		};
 		1FCF377825B7410F0079DE39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A055764EC351C963416FF06 /* Pods-CleanseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +556,7 @@
 		};
 		1FCF377925B7410F0079DE39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70468506F6C923F897EFF31 /* Pods-CleanseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
